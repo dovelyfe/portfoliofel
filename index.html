@@ -1,0 +1,942 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&amp;family=Plus+Jakarta+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary": "#ffffff", "on-surface-variant": "#44474e", "primary-container": "#172b4d", "on-background": "#171c20", "surface-variant": "#dee3e8", "on-tertiary-fixed": "#001a40", "secondary": "#46607e", "tertiary-fixed-dim": "#b0c7f8", "error": "#ba1a1a", "primary": "#001637", "inverse-primary": "#b4c7f1", "surface-dim": "#d5dbdf", "on-error": "#ffffff", "primary-fixed-dim": "#b4c7f1", "secondary-fixed": "#d0e4ff", "outline-variant": "#c5c6cf", "on-error-container": "#93000a", "on-secondary": "#ffffff", "surface-container-lowest": "#ffffff", "error-container": "#ffdad6", "inverse-surface": "#2b3135", "background": "#f5faff", "on-secondary-fixed-variant": "#2e4965", "surface-tint": "#4c5e83", "on-tertiary": "#ffffff", "surface-container": "#e9eef3", "inverse-on-surface": "#ecf1f6", "secondary-container": "#c1dcff", "surface-container-high": "#e4e9ee", "on-secondary-fixed": "#001d35", "on-primary-fixed": "#041b3c", "primary-fixed": "#d7e2ff", "surface-bright": "#f5faff", "tertiary-container": "#122b53", "tertiary-fixed": "#d7e2ff", "on-tertiary-container": "#7d93c1", "on-surface": "#171c20", "tertiary": "#001638", "surface": "#f5faff", "on-primary-container": "#8093bb", "on-primary-fixed-variant": "#34476a", "outline": "#75777f", "on-secondary-container": "#47617f", "secondary-fixed-dim": "#aec9eb", "surface-container-highest": "#dee3e8", "on-tertiary-fixed-variant": "#304670", "surface-container-low": "#eff4f9" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "gutter": "1.25rem", "space-lg": "1.75rem", "margin": "1.25rem", "space-xs": "0.25rem", "space-md": "1rem", "space-xl": "3rem", "margin-desktop": "3.5rem", "gutter-desktop": "2rem", "space-sm": "0.5rem" }, "fontFamily": { "headline-md": [ "Playfair Display" ], "body-lg": [ "Plus Jakarta Sans" ], "body-md": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ], "title-editorial": [ "Playfair Display" ], "display-lg-mobile": [ "Playfair Display" ], "headline-lg": [ "Playfair Display" ], "headline-sm": [ "Playfair Display" ], "display-lg": [ "Playfair Display" ], "display-md": [ "Playfair Display" ], "body-sm": [ "Plus Jakarta Sans" ], "label-sm": [ "Plus Jakarta Sans" ], "display-md-mobile": [ "Playfair Display" ] }, "fontSize": { "headline-md": [ "26px", { "lineHeight": "34px", "letterSpacing": "0em", "fontWeight": "400" } ], "body-lg": [ "16px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "400" } ], "body-md": [ "14px", { "lineHeight": "22px", "letterSpacing": "0.01em", "fontWeight": "400" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "600" } ], "title-editorial": [ "18px", { "lineHeight": "26px", "letterSpacing": "0.02em", "fontWeight": "400" } ], "display-lg-mobile": [ "38px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "400" } ], "headline-lg": [ "32px", { "lineHeight": "40px", "letterSpacing": "0em", "fontWeight": "400" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "letterSpacing": "0.01em", "fontWeight": "600" } ], "display-lg": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "400" } ], "display-md": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "400" } ], "body-sm": [ "12px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400" } ], "label-sm": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "500" } ], "display-md-mobile": [ "30px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "400" } ] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-primary"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-md shadow-[0_8px_30px_-4px_rgba(23,43,77,0.06)]"><div class="h-16 max-w-[1240px] mx-auto px-margin lg:px-margin-desktop flex items-center justify-between"><a class="flex items-center gap-space-xs group" data-path="about" href="#"><span class="font-title-editorial text-title-editorial text-primary tracking-[0.2em] font-normal transition-opacity hover:opacity-80">OFELIA</span><span class="font-title-editorial text-title-editorial text-secondary tracking-normal select-none group-hover:scale-110 transition-transform">♡</span></a><nav class="hidden md:flex items-center gap-space-sm p-1 rounded-full bg-surface-container-low/70" data-active-classes="bg-secondary-container text-on-secondary-container rounded-full font-medium"><a aria-current="page" class="px-space-md py-1.5 transition-colors bg-secondary-container text-on-secondary-container rounded-full font-medium" data-path="about" href="#">About</a><a class="px-space-md py-1.5 rounded-full font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-colors" data-path="my-journey" href="#">My Journey</a><a class="px-space-md py-1.5 rounded-full font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-colors" data-path="showcase" href="#">Showcase</a><a class="px-space-md py-1.5 rounded-full font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-colors" data-path="skills" href="#">Skills</a><a class="px-space-md py-1.5 rounded-full font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center px-space-md py-1.5 rounded-full bg-primary-container text-on-primary font-label-md text-label-md tracking-wider hover:bg-primary transition-all shadow-[0_2px_6px_-1px_rgba(23,43,77,0.12)]" data-path="contact" href="#">Say Hello ♡</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-16rem)]"><div class="flex flex-col w-full">
+<!-- Top Ambient Ribbon Divider -->
+<div class="w-full flex items-center justify-center py-2 bg-surface-container-low/60 select-none">
+<div class="flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-[0.25em]">
+<span class="">✧</span>
+<span class="">A quiet studio journal of pastry &amp; confections</span>
+<span class="">✧</span>
+</div>
+</div>
+<!-- Hero Section -->
+<section class="relative w-full max-w-[1240px] mx-auto px-margin lg:px-margin-desktop pt-space-lg pb-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<!-- Left Content Column -->
+<div class="lg:col-span-6 flex flex-col items-start gap-space-md z-10">
+<!-- Eyebrow Pill -->
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-secondary-container text-on-secondary-container shadow-sm">
+<svg aria-hidden="true" class="w-4 h-4 fill-primary" viewBox="0 0 24 24">
+<path d="M12 11.5c-1.8-1.5-4.2-2.5-6.5-1.5-2 0.8-2.5 3.2-1 4.7 1.8 1.8 5.5 1.8 7.5 0.3 2 1.5 5.7 1.5 7.5-0.3 1.5-1.5 1-3.9-1-4.7-2.3-1-4.7 0-6.5 1.5zm-3.5 1c-1.3 0-2.5-0.7-2.5-1.5 0-0.7 0.8-1.2 1.8-0.9 1.5 0.5 2.5 1.5 3 2.2-0.8 0.2-1.6 0.2-2.3 0.2zm7 0c-0.7 0-1.5 0-2.3-0.2 0.5-0.7 1.5-1.7 3-2.2 1-0.3 1.8 0.2 1.8 0.9 0 0.8-1.2 1.5-2.5 1.5z"></path>
+<path d="M10.8 13.5c-0.6 2-2 4.5-3.8 6-0.4 0.3-0.2 0.8 0.3 0.7 2.2-0.6 4.2-2.6 5.1-4.7l-1.6-2z"></path>
+<path d="M13.2 13.5c0.6 2 2 4.5 3.8 6 0.4 0.3 0.2 0.8-0.3 0.7-2.2-0.6-4.2-2.6-5.1-4.7l1.6-2z"></path>
+</svg>
+<span class="font-label-md text-label-md tracking-wider font-semibold">A LITTLE WORLD OF BUTTER &amp; FLOUR</span>
+</div>
+<!-- Main Heading -->
+<h1 class="font-display-lg text-display-lg text-primary tracking-tight leading-tight">
+          A little <span class="italic font-display-lg text-primary underline decoration-secondary-fixed-dim decoration-wavy decoration-1 underline-offset-8">sweetness</span>, made by Ofelia.
+        </h1>
+<!-- Subheading -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+          Learning, creating, and discovering the art of French &amp; artisanal pastry — one morning bake, gentle fold, and sugar blossom at a time.
+        </p>
+<!-- CTA Action Buttons -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-xs">
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-all duration-200 shadow-md hover:-translate-y-0.5" href="#showcase">
+<span class="">Explore My Work</span>
+<span class="text-xs">♡</span>
+</a>
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-surface-container-lowest text-primary font-label-md text-label-md hover:bg-secondary-container transition-all duration-200 shadow-sm" href="#about">
+<span class="">Get to Know Me</span>
+</a>
+</div>
+<!-- Quick Scrapbook Meta Snippet -->
+<div class="flex items-center gap-4 pt-space-sm font-label-sm text-label-sm text-secondary">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">search_off</span> Morning batches
+          </span>
+<span class="">•</span>
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">local_cafe</span> Small-scale craft
+          </span>
+<span class="">•</span>
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">favorite</span> Piped with patience
+          </span>
+</div>
+</div>
+<!-- Right Visual Column (Asymmetric Scrapbook Composition) -->
+<div class="lg:col-span-6 relative mt-6 lg:mt-0 flex items-center justify-center">
+<!-- Floating Stamp 1 -->
+<div class="absolute -top-4 left-4 z-20 px-3 py-1.5 rounded-full bg-surface-container-lowest text-primary font-title-editorial text-title-editorial shadow-md rotate-[-6deg] flex items-center gap-1.5 select-none">
+<span class="text-xs text-secondary font-bold">✿</span>
+<span class="">baked with love ♡</span>
+</div>
+<!-- Floating Stamp 2 -->
+<div class="absolute -bottom-3 right-6 z-20 px-3.5 py-1.5 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm tracking-wider uppercase shadow-md rotate-[4deg] select-none">
+<span class="">est. learning journey 2024</span>
+</div>
+<!-- Main Photo Frame (Vintage White Lambeth Cake with baby blue bows) -->
+<div class="relative w-full max-w-md bg-surface-container-lowest p-3 pb-8 rounded-lg shadow-xl rotate-[1.5deg] transition-transform duration-300 hover:rotate-0">
+<div class="w-full h-80 sm:h-96 rounded overflow-hidden relative">
+<img class="w-full h-full object-cover" data-alt="An ethereal vintage Lambeth style heart cake iced in delicate white Swiss meringue buttercream with intricate royal icing ruffles, adorned with tiny powder blue satin ribbons and soft pearl accents, captured in gentle morning window sunlight on a rustic white marble counter." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtGLBw15ahR1jTcecdaYtttpxCiITdn3EpB5v2rqK23F-1RKPYv2I-FRG2iCqD-1OrjrFPuyRLRHngahNlAKd4AQ8RHG7JQZRdqCzXKk9fMC3oa_TRMRq60opGNSG2HNSv8hfuK-cIC9MHJsMydREO77INeI-aXjhXdPSYLrGz-ZP8we5du-bpIcKhEuaQ7Vi6F_97Q5cu1FcPH-2PaLfTgnlnkXWxzaQhWYfrgCw">
+</div>
+<div class="mt-3 flex items-center justify-between px-1">
+<p class="font-title-editorial text-title-editorial text-primary italic">No. 01 — Silk Lambeth Celebration Cake</p>
+<span class="font-label-sm text-label-sm text-secondary">Batch 42</span>
+</div>
+</div>
+<!-- Overlapping Mini Polaroid (Flaky Pastry Layers) -->
+<div class="absolute -bottom-8 -left-2 sm:left-4 w-44 sm:w-52 bg-surface-container-lowest p-2 pb-6 rounded-lg shadow-xl rotate-[-8deg] hover:rotate-0 transition-transform duration-300 z-10 hidden sm:block">
+<div class="w-full h-36 rounded overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Close up macro photograph of golden brown flaky laminated croissant pastry layers showing honeycomb honeycomb crumb structure dusted with powdered sugar, natural Nordic morning illumination." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIehCdp-eDJ9gON8tjZXSJtysvoo-hAcas4WjAMQ4vX36Z1yaw7R6vMvb5SNp7WB9nwqW9Zo5GNZVN6znpe9vGFeLILOdIKuG5Q3R_8NKDwJLiqEWzY_86-iDOZGLjXNghO4k1d8O3Xh-cYt8H7wVJqxPT0-K8-ii7157qK4tMU-2-qWPHTnyGQwypncY1GulS1iV5Imqa8xT3GzzVEOSJ2XIDRrCkbT-QzpVDqhc">
+</div>
+<p class="mt-2 text-center font-title-editorial text-xs italic text-secondary">27 micro laminations ♡</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Wavy Delicate Section Delimiter -->
+<div class="w-full flex items-center justify-center my-space-md opacity-40 select-none">
+<span class="text-secondary tracking-[1em] text-xs">♡ • ♡ • ♡ • ♡ • ♡</span>
+</div>
+<!-- About Me Section -->
+<section class="w-full max-w-[1240px] mx-auto px-margin lg:px-margin-desktop py-space-xl" id="about">
+<div class="flex flex-col items-center text-center mb-space-lg">
+<div class="flex items-center gap-2 text-secondary font-label-md text-label-md uppercase tracking-widest">
+<span class="">journal notes</span>
+<span class="">✧</span>
+<span class="">chapter one</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-1">A little about me ♡</h2>
+</div>
+<!-- Two-Column Editorial Scrapbook -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<!-- Left Column: Portrait & Tactile Framing -->
+<div class="lg:col-span-5 relative flex justify-center">
+<!-- Washi Tape Effect Accent -->
+<div class="absolute -top-3 left-1/2 -translate-x-1/2 w-28 h-6 bg-secondary-container/80 backdrop-blur-sm rotate-[2deg] z-20 rounded-sm shadow-xs"></div>
+<div class="w-full max-w-sm bg-surface-container-lowest p-4 pb-10 rounded-lg shadow-xl">
+<div class="w-full h-80 sm:h-96 rounded-sm overflow-hidden relative">
+<img class="w-full h-full object-cover" data-alt="Aesthetic candid portrait of baker hands gently kneading artisan dough dusted with white flour on a natural light wooden pastry table, linen apron and soft blue ribbon tied on the wrist, warm cozy bakery mood." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlHgTBGGd2TbnjBv70NlLbmy1Ym5KQtBbGuSl60HeaziUFEPk4m1oDEWTVHnCSvPGxE1UqJkrj5OGuktP3BaUBp_zttekFNk6LN82Ogh-DbBgAMSxQXaS8lr3nHU4VB6i4ClC_8QwU7-AAAguHHqBPNoVPVyLiRvuLyALyi-l9Cpuh3gPo60vV_iq4CxIM7h8gYGAFQaL_FQu58hZcHsp3tVm5NFx7WeQrtMhDa2VisoG1tNb-4Lk5cb-P4i-eNGI9">
+</div>
+<div class="mt-4 px-2 flex flex-col gap-1 text-center">
+<p class="font-title-editorial text-title-editorial text-primary italic">“Flour on the apron, joy in the kitchen.”</p>
+<span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase">Ofelia in the studio</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Story & Philosophy -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<!-- Bio Card -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-label-md text-label-md text-secondary tracking-wider uppercase">Greetings from my baking bench</span>
+</div>
+<p class="font-body-lg text-body-lg text-primary leading-relaxed">
+            “Hi, I'm Ofelia! I'm a pastry baker who loves exploring the little details behind every sweet creation. Through my learning journey, I get to discover new techniques, experiment with flavors, and turn simple ingredients into something special.”
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            What started as a childhood fascination with Sunday tarts has grown into a devoted studio practice. I focus on classical foundations paired with gentle, nostalgic aesthetics — finding poetry in butter temperatures, precision crumb structures, and quiet morning piping sessions.
+          </p>
+</div>
+<!-- Scrapbook Accent Pillars -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<!-- Philosophy Card -->
+<div class="bg-surface-container-low p-space-md rounded-lg shadow-xs flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-primary">
+<span class="material-symbols-outlined text-[18px]">temp_preferences_custom</span>
+<h3 class="font-headline-sm text-headline-sm">My Pastry Philosophy</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              Patience over haste. Respecting the dough's natural resting rhythm and letting authentic flavors speak louder than excessive sugar.
+            </p>
+</div>
+<!-- Favorite Ingredients Card -->
+<div class="bg-surface-container-low p-space-md rounded-lg shadow-xs flex flex-col gap-1">
+<div class="flex items-center gap-1.5 text-primary">
+<span class="material-symbols-outlined text-[18px]">eco</span>
+<h3 class="font-headline-sm text-headline-sm">Favorite Ingredients</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              Single-origin Tahitian vanilla bean, slow-cooked hazelnut brown butter, organic citrus zest, and flaky Maldon sea salt.
+            </p>
+</div>
+</div>
+<!-- Highlight Banner -->
+<div class="p-space-md bg-secondary-container/60 rounded-lg flex items-center gap-3">
+<span class="text-xl text-primary">♡</span>
+<div>
+<span class="font-label-md text-label-md text-primary font-semibold block">Why I Bake:</span>
+<span class="font-body-md text-body-md text-secondary">For the quiet joy of sharing handmade sweetness with friends, family, and kind strangers.</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Learning Journey — Interactive Slide Carousel -->
+<section class="w-full bg-surface-container-low/70 py-space-xl" id="journey">
+<div class="max-w-[1240px] mx-auto px-margin lg:px-margin-desktop">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg gap-4">
+<div>
+<div class="flex items-center gap-2 text-secondary font-label-md text-label-md uppercase tracking-widest">
+<span class="">Progress Journal</span>
+<span class="">✧</span>
+<span class="">Curriculum</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-1">My Learning Journey</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Every lesson, every creation, every little progress.</p>
+</div>
+<!-- Carousel Navigation Controls -->
+<div class="flex items-center gap-3">
+<button aria-label="Previous step" class="w-10 h-10 rounded-full bg-surface-container-lowest text-primary hover:bg-secondary-container flex items-center justify-center shadow-sm transition-transform active:scale-95" id="carousel-prev">
+<span class="material-symbols-outlined text-[20px]">west</span>
+</button>
+<span class="font-label-md text-label-md text-secondary px-2 font-medium" id="carousel-counter">01 / 05</span>
+<button aria-label="Next step" class="w-10 h-10 rounded-full bg-surface-container-lowest text-primary hover:bg-secondary-container flex items-center justify-center shadow-sm transition-transform active:scale-95" id="carousel-next">
+<span class="material-symbols-outlined text-[20px]">east</span>
+</button>
+</div>
+</div>
+<!-- Carousel Stage Container -->
+<div class="relative overflow-hidden w-full rounded-2xl bg-surface-container-lowest p-space-md lg:p-space-lg shadow-md">
+<div class="flex transition-transform duration-500 ease-out" id="carousel-track">
+<!-- Slide 01: Basic Baking -->
+<div class="min-w-full flex-shrink-0 grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<div class="lg:col-span-5 h-72 sm:h-84 rounded-xl overflow-hidden shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Artisanal glass measuring cups with raw flour, fresh farm eggs in a white porcelain dish, and precise brass baker scales in a softly lit sunlit kitchen." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5K4g7cMFg39nz24pe132K1pzhDX1ef2_vqDZu4G9v-57jScnd29yMUb6Pe-FbbTbf2vsvYbijkk-gMF66IW7QzE9-hu9mutwkLRPr-tN2vmTZiMMAevNQmyUBrs0rxIBHQq3ryrazwgLfoYy-ccdbM6yygy9q3fxINVKchfK7NZKwmTLskBMbPSqSxZ8s-S0hQv-oWqMOrw2ogslGSdkSJh-AOSzdgf98EZvjRAA">
+</div>
+<div class="lg:col-span-7 flex flex-col gap-3 py-2">
+<div class="flex items-center gap-2">
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md font-semibold">MODULE 01</span>
+<span class="text-secondary font-title-editorial text-title-editorial italic">The Foundations</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-primary">Basic Baking</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+                Understanding ingredients, measurements, and baking fundamentals. Demystifying the chemistry of hydration percentages, butter aeration, and oven heat dynamics.
+              </p>
+<div class="mt-2 pt-3 bg-surface-container-low p-space-md rounded-lg">
+<span class="font-label-md text-label-md text-primary uppercase tracking-wider block font-semibold mb-2">Key Techniques Mastered:</span>
+<ul class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-on-surface-variant font-body-sm text-body-sm">
+<li class="flex items-center gap-1.5"><span class="text-secondary">♡</span> Gram-scale precision weighing</li>
+<li class="flex items-center gap-1.5"><span class="text-secondary">♡</span> Ambient temperature control</li>
+<li class="flex items-center gap-1.5"><span class="text-secondary">♡</span> Leavening agents balancing</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Slide 02: Bread Making -->
+<div class="min-w-full flex-shrink-0 grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<div class="lg:col-span-5 h-72 sm:h-84 rounded-xl overflow-hidden shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Rustic sourdough bread dough being scored with a wooden bread lame razor in an artisan kitchen, with linen proofing banneton basket beside it." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmrTORe7DE0E7CLrEzXSZe07aiot_07voSikheoJQbzR7zv46kQLNrG0BosnthUMbxGGioL2L53oPkqZ8zp7tdxeXwgo0CIjsCCNwU28laJltDVYfJTMCuSBGQOLNUdkrY2aOM7go4DHiJadv_WZLYaKldaO26L7dZ8XFh1HWhZmJ9lRq4i1ezFNBjU7T2AZCNPiIwbOFlSJwiqvDMNXNIMsduj0TBaaWTtZ3K_ZI">
+</div>
+<div class="lg:col-span-7 flex flex-col gap-3 py-2">
+<div class="flex items-center gap-2">
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md font-semibold">MODULE 02</span>
+<span class="text-secondary font-title-editorial text-title-editorial italic">Wild Fermentation</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-primary">Bread Making</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+                Exploring dough preparation, kneading, and fermentation. Learning to read dough elasticity by touch rather than just the kitchen timer.
+              </p>
+<div class="mt-2 pt-3 bg-surface-container-low p-space-md rounded-lg">
+<span class="font-label-md text-label-md text-primary uppercase tracking-wider block font-semibold mb-2">Key Techniques Mastered:</span>
+<ul class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-on-surface-variant font-body-sm text-body-sm">
+<li class="flex items-center gap-1.5"><span class="text-secondary">♡</span> 2-Hour autolyse method</li>
+<li class="flex items-center gap-1.5"><span class="text-secondary">♡</span> Translucent windowpane test</li>
+<li class="flex items-center gap-1.5"><span class="text-secondary">♡</span> Boule &amp; batard bench tension</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Slide 03: Cake Decoration -->
+<div class="min-w-full flex-shrink-0 grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<div class="lg:col-span-5 h-72 sm:h-84 rounded-xl overflow-hidden shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Piping tip applying soft pastel buttercream swirls onto a multi-tiered pastel tiered sponge cake with vintage French Lambeth shell borders." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCg0XZv6oNIc6qn0WzakLxpD1LKlbAFrVY1TOdgCmfh0a0cCHVnvVhq_sYbcAXQedKAY5xYihg7dbFpELSAU-LJ6CLdxw4bAq-cN8cYBZ4aO5JiSPJGZ8IFmssCD2s-8NPfV9uA5ug2iNZFYh-jyv7Lu6D84DUSGHmnymz2pGSerYUHUQBYKLIVFZ1xj1_tDDewnSh_lbfj1j42FIaX_hnXOBlUZWjLZetFJHFQZhs">
+</div>
+<div class="lg:col-span-7 flex flex-col gap-3 py-2">
+<div class="flex items-center gap-2">
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md font-semibold">MODULE 03</span>
+<span class="text-secondary font-title-editorial text-title-editorial italic">Decorative Artistry</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-primary">Cake Decoration</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+                Learning cake finishing, piping, and decorative techniques. Transforming sponges into nostalgic pieces of confectionery art inspired by European tea salons.
+              </p>
+<div class="mt-2 pt-3 bg-surface-container-low p-space-md rounded-lg">
+<span class="font-label-md text-label-md text-primary uppercase tracking-wider block font-semibold mb-2">Key Techniques Mastered:</span>
+<ul class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-on-surface-variant font-body-sm text-body-sm">
+<li class="flex items-center gap-1.5"><span class="text-secondary">♡</span> Silky Swiss meringue buttercream</li>
+<li class="flex items-center gap-1.5"><span class="text-secondary">♡</span> Palette knife floral texture</li>
+<li class="flex items-center gap-1.5"><span class="text-secondary">♡</span> Hand-tied satin ribbon finishing</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Slide 04: Pastry Fundamentals -->
+<div class="min-w-full flex-shrink-0 grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<div class="lg:col-span-5 h-72 sm:h-84 rounded-xl overflow-hidden shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Freshly baked choux pastry cream puffs resting on a cooling rack with delicate craquelin crust and vanilla bean pastry cream filling." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPKcOmhWpxI0-6gUlwyuEUnQhIIZEXIDGncYuzLOnTBhe3EPh1z1IwUgPo22ZVBkrZxnR7m0bQGLTH-LrImGWAeHu7g2NjL5B8_HxW_fB7iQoXoATzXkmMi_Uw03d-1uF1mciHB-CPIqQLzBaL7rL7-kXTQdXMZ34xa9BUyZIfrqn4GlYQjmeqddoNaQd-LVGST_DWTK53EyM5bNDFHq9ccxTU2mmOQ3j1gSIb49E">
+</div>
+<div class="lg:col-span-7 flex flex-col gap-3 py-2">
+<div class="flex items-center gap-2">
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md font-semibold">MODULE 04</span>
+<span class="text-secondary font-title-editorial text-title-editorial italic">Lamination &amp; Custards</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-primary">Pastry Fundamentals</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+                Discovering pastry textures, layering, and preparation methods. Mastering fragile pâte à choux expansions, crisp blind-baked tarts, and buttery viennoiserie.
+              </p>
+<div class="mt-2 pt-3 bg-surface-container-low p-space-md rounded-lg">
+<span class="font-label-md text-label-md text-primary uppercase tracking-wider block font-semibold mb-2">Key Techniques Mastered:</span>
+<ul class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-on-surface-variant font-body-sm text-body-sm">
+<li class="flex items-center gap-1.5"><span class="text-secondary">♡</span> Tourage butter lamination</li>
+<li class="flex items-center gap-1.5"><span class="text-secondary">♡</span> Pâte à choux steam elevation</li>
+<li class="flex items-center gap-1.5"><span class="text-secondary">♡</span> Blind-baking sweet shortcrust</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Slide 05: My Practice -->
+<div class="min-w-full flex-shrink-0 grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<div class="lg:col-span-5 h-72 sm:h-84 rounded-xl overflow-hidden shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Baker studio journal notebooks filled with handwritten pastry notes, sketches of cake tier designs, and dried pressed flowers next to fresh pastries." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvqjnVaHuHtwjkvyz8n7fWZy7JHJMXFGdLGVrOzXJTJoPKQCbUX28F9mONI9xouF5NROF6_EqoOeSkvVNJFtFQnBDmmD77OnhgTkJPcoUthubcLa_cm65wvjtUoQ7fTFNRFC-kJbtzt3jsEqWza8gvVfBhV6CrugXEzcS9ZC4pFUa6uNb6A-Htd_KFqJrehtzmlHEhavD6bzdHYp8tpcPA5YMiz_PJhYDYrH3G5sU">
+</div>
+<div class="lg:col-span-7 flex flex-col gap-3 py-2">
+<div class="flex items-center gap-2">
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md font-semibold">MODULE 05</span>
+<span class="text-secondary font-title-editorial text-title-editorial italic">Daily Synthesis</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-primary">My Practice</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+                A collection of personal practice, flavor trial notebooks, and learning outcomes. Testing seasonal preserves and documenting failure-to-success milestones.
+              </p>
+<div class="mt-2 pt-3 bg-surface-container-low p-space-md rounded-lg">
+<span class="font-label-md text-label-md text-primary uppercase tracking-wider block font-semibold mb-2">Key Techniques Mastered:</span>
+<ul class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-on-surface-variant font-body-sm text-body-sm">
+<li class="flex items-center gap-1.5"><span class="text-secondary">♡</span> Daily small-batch micro testing</li>
+<li class="flex items-center gap-1.5"><span class="text-secondary">♡</span> Herbal &amp; fruit botanical pairings</li>
+<li class="flex items-center gap-1.5"><span class="text-secondary">♡</span> Iterative crumb texture journaling</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- Dot Pagination Indicators -->
+<div class="flex items-center justify-center gap-2 mt-space-md">
+<button aria-label="Go to slide 1" class="carousel-dot w-8 h-2 rounded-full bg-primary transition-all duration-300" data-slide="0"></button>
+<button aria-label="Go to slide 2" class="carousel-dot w-2 h-2 rounded-full bg-surface-variant transition-all duration-300" data-slide="1"></button>
+<button aria-label="Go to slide 3" class="carousel-dot w-2 h-2 rounded-full bg-surface-variant transition-all duration-300" data-slide="2"></button>
+<button aria-label="Go to slide 4" class="carousel-dot w-2 h-2 rounded-full bg-surface-variant transition-all duration-300" data-slide="3"></button>
+<button aria-label="Go to slide 5" class="carousel-dot w-2 h-2 rounded-full bg-surface-variant transition-all duration-300" data-slide="4"></button>
+</div>
+</div>
+</div>
+</section>
+<!-- Pastry Showcase Section -->
+<section class="w-full max-w-[1240px] mx-auto px-margin lg:px-margin-desktop py-space-xl" id="showcase">
+<!-- Section Header -->
+<div class="flex flex-col items-center text-center mb-space-lg">
+<div class="flex items-center gap-2 text-secondary font-label-md text-label-md uppercase tracking-widest">
+<span class="">curated portfolio</span>
+<span class="">✧</span>
+<span class="">small bakes</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-1">A Collection of Sweet Things</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1 max-w-lg">
+        Click any piece to inspect the tasting notes, crust structure, and confection secrets.
+      </p>
+</div>
+<!-- Category Filter Tabs -->
+<div class="flex flex-wrap items-center justify-center gap-2 mb-space-lg" id="filter-tab-container">
+<button class="filter-tab px-4 py-1.5 rounded-full bg-primary text-on-primary font-label-md text-label-md transition-all shadow-sm" data-filter="all">
+        All (6)
+      </button>
+<button class="filter-tab px-4 py-1.5 rounded-full bg-surface-container-low text-on-surface-variant hover:text-primary font-label-md text-label-md transition-all" data-filter="cakes">
+        Cakes
+      </button>
+<button class="filter-tab px-4 py-1.5 rounded-full bg-surface-container-low text-on-surface-variant hover:text-primary font-label-md text-label-md transition-all" data-filter="pastries">
+        Pastries
+      </button>
+<button class="filter-tab px-4 py-1.5 rounded-full bg-surface-container-low text-on-surface-variant hover:text-primary font-label-md text-label-md transition-all" data-filter="breads">
+        Breads
+      </button>
+<button class="filter-tab px-4 py-1.5 rounded-full bg-surface-container-low text-on-surface-variant hover:text-primary font-label-md text-label-md transition-all" data-filter="cookies">
+        Cookies
+      </button>
+<button class="filter-tab px-4 py-1.5 rounded-full bg-surface-container-low text-on-surface-variant hover:text-primary font-label-md text-label-md transition-all" data-filter="other">
+        Other Creations
+      </button>
+</div>
+<!-- Gallery Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter-desktop" id="showcase-grid">
+<!-- Item 1: Cake -->
+<article class="gallery-card group cursor-pointer bg-surface-container-lowest p-3 pb-6 rounded-lg shadow-sm hover:shadow-xl transition-all duration-300" data-category="cakes" data-id="1">
+<div class="relative w-full h-72 rounded overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Artistic vintage Lambeth white tiered cake with piped buttercream ruffles and dainty baby blue satin ribbons sitting on a vintage footed glass cake pedestal." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1LJCzJARoV48ubUqlxy7re0rwvwAkydTcbmDw57fjq_U_gd8gH1NRvUZkb6WwMhf1VcXtDwkXHURijc7QsQeCXt40JvpDTsgwHKHpwopnhln5zp0TtDqSNIuhC4L_7fMt6_haxNkC6qgq9SyoTy64Ipr30wF5h2F7qFBGCrDRPslJOCdJxMQL5DXUlMJ6EHqAPDkOpeh_SRhVXBeKRcoO3HaH9r4CMr4rrI5649c">
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase tracking-wider">
+            Cakes
+          </div>
+</div>
+<div class="mt-4 px-1 flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Vintage Silk Lambeth Cake</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+            Delicate piped ruffles with signature baby blue satin ribbons, moist almond Genoese sponge and vanilla bean curd.
+          </p>
+<span class="mt-2 font-title-editorial text-xs italic text-secondary flex items-center gap-1">
+<span class="">Inspect batch notes</span> <span class="">→</span>
+</span>
+</div>
+</article>
+<!-- Item 2: Pastry -->
+<article class="gallery-card group cursor-pointer bg-surface-container-lowest p-3 pb-6 rounded-lg shadow-sm hover:shadow-xl transition-all duration-300" data-category="pastries" data-id="2">
+<div class="relative w-full h-72 rounded overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Freshly baked glossy Pain au Chocolat pastry cut in half to showcase air pockets and dark glossy melted chocolate batons inside." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6vu-2wFNBCaZoH56j-YqewBzjaLl8LLE7WGhcy1tXQD2obnZSxtLacbVUjWwHdzIxTM3ZHYhA9K5Z4myVztzccIwwgO5QQbIXHU41Qml5r3GH68w22ogNSZ7GEmcwuo-a36BQA8pEjp-lEI9nrMSYcE0SJFmHUbKE_infjautEPMBvDwHIIEX2g-23ok8rHIHV3Tk4dMf7HLR2w8ZNbM7GUUXngQeKM_lhZKqOwA">
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase tracking-wider">
+            Pastries
+          </div>
+</div>
+<div class="mt-4 px-1 flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Flaky Butter Pain au Chocolat</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+            27-layer laminated dough filled with dual Valrhona dark chocolate batons and bronzed with pure egg wash glaze.
+          </p>
+<span class="mt-2 font-title-editorial text-xs italic text-secondary flex items-center gap-1">
+<span class="">Inspect batch notes</span> <span class="">→</span>
+</span>
+</div>
+</article>
+<!-- Item 3: Other -->
+<article class="gallery-card group cursor-pointer bg-surface-container-lowest p-3 pb-6 rounded-lg shadow-sm hover:shadow-xl transition-all duration-300" data-category="other" data-id="3">
+<div class="relative w-full h-72 rounded overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Warm golden brown wild blueberry muffins bursting with purple berry juice and glistening with crunchy turbinado sugar crystals on top." src="https://lh3.googleusercontent.com/aida-public/AB6AXuADnrZ-DuN7FduW4oaHgDkll9sf0O1fO9N-fJ_uGOIOiVl5B7X60T5-iPFb80SZZtcMbmbArjMqOeUifpTQB-AzSVHS_dljDRnRyekAamalCvhcIKlvtKgR4_Ji6jn-naESZLW8C5H3RaE5iKq5A9JnTWSo7AYr1iidn6dke-j4HHgKg-3QzPx59trfu11GdHAsYfO-lQeOqBQy86zA5k5NQzXHCamRCoSdKBy_qxM">
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase tracking-wider">
+            Other Creations
+          </div>
+</div>
+<div class="mt-4 px-1 flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Wild Blueberry Lemon Muffins</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+            Tender cultured buttermilk crumb folded with Maine wild blueberries and crowned with crackling crystal raw sugar.
+          </p>
+<span class="mt-2 font-title-editorial text-xs italic text-secondary flex items-center gap-1">
+<span class="">Inspect batch notes</span> <span class="">→</span>
+</span>
+</div>
+</article>
+<!-- Item 4: Cookies -->
+<article class="gallery-card group cursor-pointer bg-surface-container-lowest p-3 pb-6 rounded-lg shadow-sm hover:shadow-xl transition-all duration-300" data-category="cookies" data-id="4">
+<div class="relative w-full h-72 rounded overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="French Sablé butter cookies stacked on a fine linen cloth, dusted with crystalline Maldon sea salt flakes and showing sandy golden crumb." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcqsX3hP_IO1mV60wGmhZ0mK_q6--67DU3cnU28-s7iuDr_fuWYWwPM7noz40AFddJGxLCUkXRb3-Z2k_sMJqYSMMBHrLG9zedXuA_rQShiYLF7lfkhbcAm7AWmXXu9g7OcVLOqe6iaaeEYdFoHiO9CjXUModPHLxuWnWJmikwYks1ZyIo66y5ugwu9Dp34eYnXDogsoiJziv1kfzp10i25cPjAnIJjTz7jJ1cCmU">
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase tracking-wider">
+            Cookies
+          </div>
+</div>
+<div class="mt-4 px-1 flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Brown Butter Sea Salt Sablés</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+            Traditional French butter cookies slow-browned to nutty hazelnut perfection and dusted with flaky Maldon sea salt.
+          </p>
+<span class="mt-2 font-title-editorial text-xs italic text-secondary flex items-center gap-1">
+<span class="">Inspect batch notes</span> <span class="">→</span>
+</span>
+</div>
+</article>
+<!-- Item 5: Breads -->
+<article class="gallery-card group cursor-pointer bg-surface-container-lowest p-3 pb-6 rounded-lg shadow-sm hover:shadow-xl transition-all duration-300" data-category="breads" data-id="5">
+<div class="relative w-full h-72 rounded overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Crusty artisan round sourdough bread loaf sitting on a wooden cutting board with deeply blistered ear, flour dusting, and airy open crumb slice." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOPw-qPmWB5UWwG_70ohEGCRLBN7-Izzs3vHhNog-3FmgRL-2MF-eMgwNnhfkBYhVqUAmh5_VIAVXd7gGFn2Qwg3pZAnd46K_mQBw1TOg5h2yHAEzHXqMYdR2dXnntFSrZc60WBEqQqHpH-WPTYrqK3kG3N42VOJcdakUGVQVHy5L-8E1NqSxXopbFd5fA43SYD_qQoUhieoJ2FjVjjmyIndm3332xW-XJ5wtB6o8">
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase tracking-wider">
+            Breads
+          </div>
+</div>
+<div class="mt-4 px-1 flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Classic Sourdough Country Loaf</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+            Open custard-like crumb with crisp blistered crust, fermented with wild levain over 36 hours of cold retard.
+          </p>
+<span class="mt-2 font-title-editorial text-xs italic text-secondary flex items-center gap-1">
+<span class="">Inspect batch notes</span> <span class="">→</span>
+</span>
+</div>
+</article>
+<!-- Item 6: Pastries -->
+<article class="gallery-card group cursor-pointer bg-surface-container-lowest p-3 pb-6 rounded-lg shadow-sm hover:shadow-xl transition-all duration-300" data-category="pastries" data-id="6">
+<div class="relative w-full h-72 rounded overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Elegant mini tart filled with pale green pistachio frangipane, topped with fresh glistening red raspberries and edible rose petal accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJzSd3JdkAvczRXtfhN3HpecbccS4p4XD_FYRk7nx4rrldHNuBsxgB5w5MbZfy1Vc6wInIRGawB4jod8mdVe169dskajmzVQt1UjNLvSsGfog72tClQBNYuQ54Iq44ri-fLVJr5WzHNfiBogW2J5PBPeN1zzGKCyXunPbbOiWFknsKiamuWhHyaDExCaSwfq0QIU_VSmTv5xi15nmkXAkUOlIO5nfXEeZCYtc5EbA">
+<div class="absolute top-3 left-3 px-2.5 py-1 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase tracking-wider">
+            Pastries
+          </div>
+</div>
+<div class="mt-4 px-1 flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Raspberry Rose Pistachio Tart</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+            Crisp pâte sablée shell with Sicilian pistachio frangipane, hand-picked raspberries, and fragrant rose essence.
+          </p>
+<span class="mt-2 font-title-editorial text-xs italic text-secondary flex items-center gap-1">
+<span class="">Inspect batch notes</span> <span class="">→</span>
+</span>
+</div>
+</article>
+</div>
+</section>
+<!-- Skills & Techniques Section -->
+<section class="w-full bg-surface-container-low/60 py-space-xl" id="skills">
+<div class="max-w-[1240px] mx-auto px-margin lg:px-margin-desktop">
+<!-- Section Header -->
+<div class="flex flex-col items-center text-center mb-space-lg">
+<div class="flex items-center gap-2 text-secondary font-label-md text-label-md uppercase tracking-widest">
+<span class="">curated practice</span>
+<span class="">✧</span>
+<span class="">methodology</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-1">Little Skills, Big Progress</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1 max-w-lg">
+          Core competencies developed through curiosity and consistent practice — celebrating the craft behind every bake.
+        </p>
+</div>
+<!-- Skills Cards Grid (Without arbitrary percentage progress bars) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter-desktop">
+<!-- Skill 1 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-xs flex flex-col gap-2 transition-all hover:-translate-y-1">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">scale</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Baking Fundamentals</h3>
+<span class="font-label-sm text-label-sm text-secondary">Kitchen Chemistry</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Mastering baker percentages, thermal equilibrium of butter, moisture retention in crumb, and flour protein content adjustments for varying crumb tenderness.
+          </p>
+<div class="mt-auto pt-2 flex items-center gap-1 text-xs text-secondary font-medium">
+<span class="text-xs">♡</span> Daily precision measurement habit
+          </div>
+</div>
+<!-- Skill 2 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-xs flex flex-col gap-2 transition-all hover:-translate-y-1">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">bakery_dining</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Dough Preparation</h3>
+<span class="font-label-sm text-label-sm text-secondary">Yeast &amp; Sourdough</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Manual slap-and-fold techniques, autolyse hydration, tracking fermentation by gas volume, and applying gentle surface tension during final shaping.
+          </p>
+<div class="mt-auto pt-2 flex items-center gap-1 text-xs text-secondary font-medium">
+<span class="text-xs">♡</span> Tactile elasticity intuition
+          </div>
+</div>
+<!-- Skill 3 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-xs flex flex-col gap-2 transition-all hover:-translate-y-1">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">brush</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Cake Decorating</h3>
+<span class="font-label-sm text-label-sm text-secondary">Lambeth &amp; Florals</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Intricate shell borders, scrollwork, garland drops with #16 &amp; #18 star tips, mirror glazes, and balancing pastel color gradients with botanical garnishes.
+          </p>
+<div class="mt-auto pt-2 flex items-center gap-1 text-xs text-secondary font-medium">
+<span class="text-xs">♡</span> Steady hand &amp; calm pacing
+          </div>
+</div>
+<!-- Skill 4 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-xs flex flex-col gap-2 transition-all hover:-translate-y-1">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">layers</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Pastry Techniques</h3>
+<span class="font-label-sm text-label-sm text-secondary">Lamination &amp; Choux</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Enclosing European butter blocks (beurrage), executing single and double turns without butter fracture, and baking steam-hollowed pâte à choux.
+          </p>
+<div class="mt-auto pt-2 flex items-center gap-1 text-xs text-secondary font-medium">
+<span class="text-xs">♡</span> Controlled cold-rolling
+          </div>
+</div>
+<!-- Skill 5 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-xs flex flex-col gap-2 transition-all hover:-translate-y-1">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">nutrition</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Ingredient Knowledge</h3>
+<span class="font-label-sm text-label-sm text-secondary">Origin &amp; Sensory</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Evaluating bean varietals (Bourbon vs. Tahitian vanilla), fat percentage ratios in cultured butters, unbleached grain flours, and raw unrefined sugars.
+          </p>
+<div class="mt-auto pt-2 flex items-center gap-1 text-xs text-secondary font-medium">
+<span class="text-xs">♡</span> Thoughtful ethical sourcing
+          </div>
+</div>
+<!-- Skill 6 -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-xs flex flex-col gap-2 transition-all hover:-translate-y-1">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">photo_camera</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary">Food Presentation</h3>
+<span class="font-label-sm text-label-sm text-secondary">Styling &amp; Archival</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            Vintage ceramic selection, ribbon pairing, natural morning light capture, and curating warm scrapbook spreads for community sharing.
+          </p>
+<div class="mt-auto pt-2 flex items-center gap-1 text-xs text-secondary font-medium">
+<span class="text-xs">♡</span> Visual poetic storytelling
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Personal Quote Section -->
+<section class="w-full bg-secondary-container/40 py-space-xl relative overflow-hidden">
+<div class="max-w-[840px] mx-auto px-margin text-center flex flex-col items-center gap-space-sm relative z-10">
+<!-- Tiny Decorative Ribbon SVG -->
+<div class="w-12 h-12 flex items-center justify-center text-primary mb-1">
+<svg aria-hidden="true" class="w-8 h-8 fill-primary" viewBox="0 0 24 24">
+<path d="M12 11.5c-1.8-1.5-4.2-2.5-6.5-1.5-2 0.8-2.5 3.2-1 4.7 1.8 1.8 5.5 1.8 7.5 0.3 2 1.5 5.7 1.5 7.5-0.3 1.5-1.5 1-3.9-1-4.7-2.3-1-4.7 0-6.5 1.5zm-3.5 1c-1.3 0-2.5-0.7-2.5-1.5 0-0.7 0.8-1.2 1.8-0.9 1.5 0.5 2.5 1.5 3 2.2-0.8 0.2-1.6 0.2-2.3 0.2zm7 0c-0.7 0-1.5 0-2.3-0.2 0.5-0.7 1.5-1.7 3-2.2 1-0.3 1.8 0.2 1.8 0.9 0 0.8-1.2 1.5-2.5 1.5z"></path>
+<path d="M10.8 13.5c-0.6 2-2 4.5-3.8 6-0.4 0.3-0.2 0.8 0.3 0.7 2.2-0.6 4.2-2.6 5.1-4.7l-1.6-2z"></path>
+<path d="M13.2 13.5c0.6 2 2 4.5 3.8 6 0.4 0.3 0.2 0.8-0.3 0.7-2.2-0.6-4.2-2.6-5.1-4.7l1.6-2z"></path>
+</svg>
+</div>
+<!-- Quote -->
+<blockquote class="font-display-md text-display-md text-primary italic leading-snug">
+        “There's something beautiful about turning simple ingredients into something made with love.”
+      </blockquote>
+<!-- Attribution -->
+<cite class="font-title-editorial text-title-editorial text-secondary not-italic tracking-wider uppercase">
+        — Ofelia
+      </cite>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="w-full max-w-[1240px] mx-auto px-margin lg:px-margin-desktop py-space-xl" id="contact">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-start">
+<!-- Left Column: Friendly Invitation & Direct Channels -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div>
+<div class="flex items-center gap-2 text-secondary font-label-md text-label-md uppercase tracking-widest">
+<span class="">get in touch</span>
+<span class="">✧</span>
+<span class="">sweet connection</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary mt-1">Let's Stay in Touch ♡</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+            I'd love to share more of my baking journey with you. Whether you have questions about a sourdough crumb, want to talk vanilla beans, or just say hello!
+          </p>
+</div>
+<div class="flex flex-col gap-3">
+<!-- Email Card -->
+<a class="bg-surface-container-lowest p-space-md rounded-xl shadow-xs flex items-center justify-between group hover:bg-secondary-container/40 transition-colors" href="mailto:hello.ofelia@pastryjournal.com">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">mail</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider block">Write an email</span>
+<span class="font-body-md text-body-md text-primary font-medium">hello.ofelia@pastryjournal.com</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-secondary text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+<!-- Instagram Card -->
+<a class="bg-surface-container-lowest p-space-md rounded-xl shadow-xs flex items-center justify-between group hover:bg-secondary-container/40 transition-colors" href="https://instagram.com" rel="noopener noreferrer" target="_blank">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider block">Baking Scrapbook</span>
+<span class="font-body-md text-body-md text-primary font-medium">@ofelia.bakes</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-secondary text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-xs">
+<p class="font-title-editorial text-xs italic text-secondary text-center">
+            “Every email receives a thoughtful reply between oven batches.” ♡
+          </p>
+</div>
+</div>
+<!-- Right Column: Interactive Note Form Card -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-space-lg rounded-2xl shadow-md">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">Send a Little Note</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+          Drop your thoughts, recipe questions, or kind remarks below.
+        </p>
+<!-- Message Form -->
+<form class="flex flex-col gap-space-sm" id="contact-form">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-primary font-medium" for="contact-name">Your Name</label>
+<input class="w-full h-11 px-3 rounded-lg bg-surface-container-low text-primary placeholder:text-secondary font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest shadow-xs transition-all" id="contact-name" placeholder="e.g. Clara" required="" type="text">
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-primary font-medium" for="contact-email">Email Address</label>
+<input class="w-full h-11 px-3 rounded-lg bg-surface-container-low text-primary placeholder:text-secondary font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest shadow-xs transition-all" id="contact-email" placeholder="clara@example.com" required="" type="email">
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-primary font-medium" for="contact-topic">What's on your mind?</label>
+<select class="w-full h-11 px-3 rounded-lg bg-surface-container-low text-primary font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest shadow-xs transition-all" id="contact-topic">
+<option value="sweet-hello">Just saying hello ♡</option>
+<option value="recipe-question">Pastry or bread technique inquiry</option>
+<option value="collaboration">Collaborations &amp; tea party inquiries</option>
+<option value="ingredient-advice">Flour &amp; vanilla recommendations</option>
+</select>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-primary font-medium" for="contact-message">Your Message / Note</label>
+<textarea class="w-full p-3 rounded-lg bg-surface-container-low text-primary placeholder:text-secondary font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest shadow-xs transition-all resize-none" id="contact-message" placeholder="Write your thoughts here..." required="" rows="4"></textarea>
+</div>
+<div class="flex items-center justify-between pt-2">
+<span class="font-label-sm text-label-sm text-secondary">
+              Sent with love &amp; butter
+            </span>
+<button class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-all duration-200 shadow-sm active:scale-95" type="submit">
+<span class="">Say Hello ♡</span>
+</button>
+</div>
+</form>
+<!-- Form Success State Box (Hidden by default) -->
+<div class="hidden mt-space-sm p-space-md rounded-xl bg-secondary-container/60 text-center flex-col items-center gap-2 animate-fade-in" id="contact-success">
+<div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[20px]">favorite</span>
+</div>
+<p class="font-title-editorial text-title-editorial text-primary italic">Thank you so much for your sweet note!</p>
+<p class="font-body-sm text-body-sm text-secondary max-w-sm">
+            I have received your message. I'll read it with a warm cup of Earl Grey and reply shortly.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Lightbox Modal (For Pastry Showcase) -->
+<div aria-label="Pastry Details" aria-modal="true" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-primary/40 backdrop-blur-md opacity-0 pointer-events-none transition-opacity duration-300" id="lightbox-modal" role="dialog">
+<div class="bg-surface-container-lowest max-w-2xl w-full rounded-2xl shadow-2xl overflow-hidden flex flex-col scale-95 transition-transform duration-300 max-h-[90vh]" id="lightbox-card">
+<div class="relative w-full h-64 sm:h-80 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Pastry details display showcase view" id="lightbox-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8TowyFglGxe1f2mB56nTZTUoM33k_DgFeLubCsdJbT9fAUIcjeOuoJG1JeLk3tXi5htYIWjVZmkahlICrbuv7cHIG-zJqn8BdkmQa1KVj0LmRM0ncUeiaQMh0m_ySDzb2h60lo9-Y1LbtfjzoJMKuBrRqA7j5lb3Tfxs7fl3Dac6LP289RDOckjUL9_AGElMK2kz1VIAHuErPhS0IpySO8uH4mTDJcZCbDPODRaY">
+<button aria-label="Close modal" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm text-primary flex items-center justify-center shadow-md hover:bg-surface-container-lowest transition-colors" id="lightbox-close">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+<span class="absolute bottom-4 left-4 px-3 py-1 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm uppercase tracking-wider" id="lightbox-tag">
+          Category
+        </span>
+</div>
+<div class="p-space-lg overflow-y-auto flex flex-col gap-2">
+<h3 class="font-headline-md text-headline-md text-primary" id="lightbox-title">Pastry Title</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed" id="lightbox-desc">Pastry Description</p>
+<div class="mt-space-sm p-space-md rounded-lg bg-surface-container-low flex flex-col gap-1">
+<span class="font-label-md text-label-md text-primary uppercase tracking-wider font-semibold">Ofelia's Baker Notes:</span>
+<p class="font-body-sm text-body-sm text-secondary italic" id="lightbox-baker-note">Tasting and temperature observations will appear here.</p>
+</div>
+<div class="mt-space-xs flex justify-end">
+<button class="px-5 py-2 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md hover:bg-primary-container hover:text-on-primary transition-colors" id="lightbox-close-btn">
+            Close Preview
+          </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Client-Side Behavior Script -->
+<script>
+    (function() {
+      // 1. Showcase Lightbox Data & Handler
+      const pastryDetails = {
+        "1": {
+          title: "Vintage Silk Lambeth Cake",
+          tag: "Cakes",
+          desc: "Delicate piped ruffles with signature baby blue satin ribbons. Moist almond Genoese sponge layered with house-made vanilla bean curd and coated in silky Swiss meringue buttercream.",
+          note: "Baked for a spring garden tea party. Pipe pressure was maintained using chilled buttercream at precisely 18°C for crisp shell definitions.",
+          imgAlt: "Artistic vintage Lambeth white tiered cake with piped buttercream ruffles and dainty baby blue satin ribbons sitting on a vintage footed glass cake pedestal."
+        },
+        "2": {
+          title: "Flaky Butter Pain au Chocolat",
+          tag: "Pastries",
+          desc: "27-layer laminated dough filled with dual Valrhona dark chocolate batons and bronzed with pure egg wash glaze. Crispy micro-shatter crust with airy honeycomb interior.",
+          note: "Butter block kept at 14°C throughout tourage turns to prevent melting. Proofed gently at 26°C for 2.5 hours before high-heat steam baking.",
+          imgAlt: "Freshly baked glossy Pain au Chocolat pastry cut in half to showcase air pockets and dark glossy melted chocolate batons inside."
+        },
+        "3": {
+          title: "Wild Blueberry Lemon Muffins",
+          tag: "Other Creations",
+          desc: "Tender cultured buttermilk crumb folded with Maine wild blueberries and crowned with crackling crystal raw turbinado sugar. Infused with fresh Meyer lemon zest.",
+          note: "Coated berries in a spoonful of flour before folding so they float evenly without sinking to the base of the cups.",
+          imgAlt: "Warm golden brown wild blueberry muffins bursting with purple berry juice and glistening with crunchy turbinado sugar crystals on top."
+        },
+        "4": {
+          title: "Brown Butter Sea Salt Sablés",
+          tag: "Cookies",
+          desc: "Traditional French butter cookies slow-browned to nutty hazelnut perfection and dusted with flaky Maldon sea salt. Sandy, melt-in-mouth texture.",
+          note: "The butter was cooked until milk solids caramelized to deep amber, then chilled overnight back into solid state before creaming.",
+          imgAlt: "French Sablé butter cookies stacked on a fine linen cloth, dusted with crystalline Maldon sea salt flakes and showing sandy golden crumb."
+        },
+        "5": {
+          title: "Classic Sourdough Country Loaf",
+          tag: "Breads",
+          desc: "Open custard-like crumb with crisp blistered crust, fermented with wild levain over 36 hours of cold retard. Flour blend of French T65 and whole rye.",
+          note: "78% hydration dough baked in a heavy cast iron Dutch oven at 240°C with 20 minutes under closed lid for glorious ear formation.",
+          imgAlt: "Crusty artisan round sourdough bread loaf sitting on a wooden cutting board with deeply blistered ear, flour dusting, and airy open crumb slice."
+        },
+        "6": {
+          title: "Raspberry Rose Pistachio Tart",
+          tag: "Pastries",
+          desc: "Crisp pâte sablée shell with Sicilian pistachio frangipane, hand-picked raspberries, and fragrant rose essence droplets.",
+          note: "Shell blind-baked to golden snap. Brushed inside with thin cocoa butter barrier before adding the fragrant pistachio cream.",
+          imgAlt: "Elegant mini tart filled with pale green pistachio frangipane, topped with fresh glistening red raspberries and edible rose petal accents."
+        }
+      };
+
+      const modal = document.getElementById('lightbox-modal');
+      const modalImg = document.getElementById('lightbox-img');
+      const modalTitle = document.getElementById('lightbox-title');
+      const modalTag = document.getElementById('lightbox-tag');
+      const modalDesc = document.getElementById('lightbox-desc');
+      const modalNote = document.getElementById('lightbox-baker-note');
+      const closeButtons = [document.getElementById('lightbox-close'), document.getElementById('lightbox-close-btn')];
+
+      function openModal(id) {
+        const item = pastryDetails[id];
+        if (!item) return;
+        modalTitle.textContent = item.title;
+        modalTag.textContent = item.tag;
+        modalDesc.textContent = item.desc;
+        modalNote.textContent = item.note;
+        modalImg.setAttribute('data-alt', item.imgAlt);
+        
+        modal.classList.remove('opacity-0', 'pointer-events-none');
+        modal.classList.add('opacity-100', 'pointer-events-auto');
+        document.getElementById('lightbox-card').classList.remove('scale-95');
+        document.getElementById('lightbox-card').classList.add('scale-100');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeModal() {
+        modal.classList.add('opacity-0', 'pointer-events-none');
+        modal.classList.remove('opacity-100', 'pointer-events-auto');
+        document.getElementById('lightbox-card').classList.add('scale-95');
+        document.getElementById('lightbox-card').classList.remove('scale-100');
+        document.body.style.overflow = '';
+      }
+
+      document.querySelectorAll('.gallery-card').forEach(card => {
+        card.addEventListener('click', () => {
+          const id = card.getAttribute('data-id');
+          openModal(id);
+        });
+      });
+
+      closeButtons.forEach(btn => {
+        if (btn) btn.addEventListener('click', closeModal);
+      });
+
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && !modal.classList.contains('pointer-events-none')) {
+          closeModal();
+        }
+      });
+
+      // 2. Category Filter Tabs
+      const filterTabs = document.querySelectorAll('.filter-tab');
+      const cards = document.querySelectorAll('.gallery-card');
+
+      filterTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          const filter = tab.getAttribute('data-filter');
+
+          // Reset all tabs
+          filterTabs.forEach(t => {
+            t.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+            t.classList.add('bg-surface-container-low', 'text-on-surface-variant');
+          });
+
+          // Active tab
+          tab.classList.remove('bg-surface-container-low', 'text-on-surface-variant');
+          tab.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+
+          // Filter cards
+          cards.forEach(card => {
+            const cardCat = card.getAttribute('data-category');
+            if (filter === 'all' || cardCat === filter) {
+              card.style.display = 'block';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // 3. Learning Journey Carousel
+      const track = document.getElementById('carousel-track');
+      const dots = document.querySelectorAll('.carousel-dot');
+      const prevBtn = document.getElementById('carousel-prev');
+      const nextBtn = document.getElementById('carousel-next');
+      const counter = document.getElementById('carousel-counter');
+      const totalSlides = 5;
+      let currentSlide = 0;
+
+      function updateSlide(index) {
+        currentSlide = (index + totalSlides) % totalSlides;
+        track.style.transform = `translateX(-${currentSlide * 100}%)`;
+        
+        dots.forEach((dot, i) => {
+          if (i === currentSlide) {
+            dot.classList.remove('bg-surface-variant', 'w-2');
+            dot.classList.add('bg-primary', 'w-8');
+          } else {
+            dot.classList.remove('bg-primary', 'w-8');
+            dot.classList.add('bg-surface-variant', 'w-2');
+          }
+        });
+
+        if (counter) {
+          counter.textContent = `0${currentSlide + 1} / 0${totalSlides}`;
+        }
+      }
+
+      if (prevBtn) prevBtn.addEventListener('click', () => updateSlide(currentSlide - 1));
+      if (nextBtn) nextBtn.addEventListener('click', () => updateSlide(currentSlide + 1));
+
+      dots.forEach(dot => {
+        dot.addEventListener('click', () => {
+          const slideIdx = parseInt(dot.getAttribute('data-slide'), 10);
+          updateSlide(slideIdx);
+        });
+      });
+
+      // 4. Contact Form Submission Micro-Interaction
+      const contactForm = document.getElementById('contact-form');
+      const contactSuccess = document.getElementById('contact-success');
+
+      if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          contactForm.classList.add('hidden');
+          if (contactSuccess) {
+            contactSuccess.classList.remove('hidden');
+            contactSuccess.classList.add('flex');
+          }
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest shadow-[0_-4px_24px_-4px_rgba(23,43,77,0.03)]"><div class="max-w-[1240px] mx-auto px-margin lg:px-margin-desktop py-space-xl flex flex-col items-center justify-center text-center gap-space-md"><div class="flex items-center gap-space-xs text-secondary"><span class="material-symbols-outlined text-[16px]">cookie</span><span class="text-[14px]">✧</span><span class="material-symbols-outlined text-[16px]">favorite</span></div><p class="font-title-editorial text-title-editorial text-primary italic">Made with love &amp; a little flour by Ofelia</p><p class="font-body-sm text-body-sm text-on-surface-variant tracking-wider">© 2024 Ofelia Pastry Atelier. All rights reserved.</p><a class="mt-space-sm inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-container-low text-secondary font-label-sm text-label-sm hover:bg-surface-container-high hover:text-on-surface transition-colors" href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;"><span class="material-symbols-outlined text-[14px]">north</span><span class="">Back to top</span></a></div></footer>
+
+</body></html>
